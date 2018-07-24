@@ -106,4 +106,5 @@ class Scraper
 
     out_put
   end
-
+end
+end
