@@ -1,7 +1,11 @@
 require 'open-uri'
 require 'pry'
 require 'nokogiri'
+<<<<<<< HEAD
 require 'rubygems'
+=======
+require 'rubygems' 
+>>>>>>> 4a137b945f29587cac385a8fdf8f1323b27cb936
 class Scraper
 
   def self.scrape_index_page(index_url)
@@ -102,4 +106,5 @@ class Scraper
 
     out_put
   end
+end
 end
